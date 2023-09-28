@@ -1,0 +1,350 @@
+/* Estilos globais */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+
+    border-collapse: collapse;  
+}
+
+/* Estilos do cabeçalho */
+.cabecalho {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    height: 120px;
+}
+
+.cabecalho .titulo {
+    margin-left: 20px;
+}
+
+.cabecalho .titulo h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.cabecalho .titulo h3 {
+    color: #2F86D6;
+    font-size: 18px;
+    margin: 0;
+}
+
+.cabecalho img {
+    height: 90px;
+    margin-left: 190px;
+}
+
+.cabecalho .links {
+    margin-left: 600px;
+}
+
+.cabecalho .links a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+/* Estilos do retângulo de apresentação */
+.retangulo-apresentacao {
+    background-color: #2F86D6;
+    color: white;
+    display: flex;
+}
+
+span {
+    color: #2F86D6;
+}
+
+.retangulo-apresentacao .textos {
+    width: 500px;
+    padding: 200px 0 200px 400px;
+}
+
+.retangulo-apresentacao .imagem {
+    padding: 80px 150px 0 50px;
+}
+
+/* Estilos do anúncio */
+.anuncio {
+    display: flex;
+    background-color: #23303E;
+}
+
+.anuncio .apre {
+    color: white;
+    padding-left: 450px;
+    margin: 10px 0;
+}
+
+.anuncio .botao-container {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.anuncio .botao {
+    align-items: center;
+    background-color: #2F86D6;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+}
+
+.anuncio .botao img {
+    width: auto;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.servicos {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.servicos .conteudo {
+    width: 980px;
+    padding-top: 60px; 
+}
+
+.servicos .conteudo h1 span {
+    color: #2F86D6;
+}
+
+.servicos .imagens-servicos {
+    display: flex;
+    justify-content: center;
+}
+
+.servicos .exe-servico {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.servicos .servico-item {
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+}
+
+.servicos .servico-item img {
+    height: 150px;
+    width: auto;
+}
+
+.banner4{
+    background-color: #F1F3F7;
+}
+
+.banner4 h2{
+    padding-top: 50px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 40px;
+}
+
+.banner4 h2 span{
+    color: #2F86D6;
+}
+
+/* TABELA */
+table img{
+    width: 30%;
+}
+
+
+table th{
+    border: 2px solid #F1F3F7;
+    background-color: white;
+}
+
+
+table p{
+    color: rgb(181, 181, 181);
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+table th h3{
+    font-family: 'Public Sans', sans-serif;
+    padding: 15px;
+    font-size: 15px;
+    
+}
+
+
+table tr td{
+    border: 2px solid #F1F3F7;
+
+}
+
+table{
+    box-shadow: 1px 1px 40px #599EDD;
+    border-collapse: collapse;  
+    width: 75%;  
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+table tr .texto1{
+    background-color: #F1F3F7;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+table tr .texto2{
+    background-color: white;
+    padding: 15px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.anuncio-2 {
+    display: flex;
+    background-color: #2F86D6;
+}
+
+.anuncio-2 .apre-2 {
+    color: white;
+    padding-left: 350px;
+    margin: 10px 0;
+}
+
+.anuncio-2 .apre-2 h3 {
+    margin-top: 0; /* Remove a margem superior padrão */
+    margin-bottom: 20px; /* Define a margem inferior entre h2 e h3 */
+    color: white;
+    font-size: 20px;
+}
+
+.anuncio-2 .apre-2 h2 {
+    margin-top: 0; /* Remove a margem superior padrão */
+    margin-bottom: 20px; /* Define a margem inferior entre h2 e h3 */
+    color: white;
+    font-size: 28px;
+}
+
+.anuncio-2 .botao-container-2 {
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.anuncio-2 .botao-2 {
+    align-items: center;
+    background-color: #23303E;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+}
+
+.anuncio-2 .botao-2 img {
+    width: auto;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.contatos {
+    padding-top: 60px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column; /* Empilha os elementos verticalmente */
+    justify-content: center; /* Alinha os elementos horizontalmente ao centro */
+    align-items: center; /* Alinha os elementos verticalmente ao centro */
+    height: auto; /* Remova a altura fixa para ajustar dinamicamente à altura do conteúdo */
+    background-color: white;
+}
+
+.img-logo {
+    /* margin-top: -450px; Remova a margem superior negativa */
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px; /* Adicione margem inferior para separar os elementos */
+}
+
+.img-logo .frases {
+    margin-left: 20px;
+}
+
+.img-logo .frases h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.img-logo .frases h3 {
+    color: #2F86D6;
+    font-size: 18px;
+    margin: 0;
+}
+
+.img-logo img {
+    height: 90px;
+    /* Remova a margem esquerda aqui também */
+}
+
+.meios-contato p {
+    margin: 25px 0; /* Adicione margem vertical de 25px para separar as frases */
+    text-align: center;
+}
+
+footer {
+    font-weight: bold;
+    padding: 20px;
+    background-color: #F1F3F7;
+    width: 100vw;
+    height: auto; /* Altere a altura para automática */
+    text-align: center;
+}
+
+.nome {
+    color: #2F86D6;
+}
+
+.botao a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    align-items: center;
+}
+
+.botao a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    align-items: center;
+}
+
+.botao-2 a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    align-items: center;
+}
